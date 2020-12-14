@@ -66,3 +66,12 @@ Multiplica siembre BX * AX y lo almacena en dos registros (DX:AX)
 > IMUL fuente  flags {O, C}
 - DIV: división sin signo
 > DIV fuente
+
+> MOV destino, fuente// tomarla como igual
+> MOV CX, AX // CX = AX
+>AND CX, BX
+>// CX = CX && BX
+> PUSH CX // Metemos el resultado en CX
+> //LImpiar registro CX = 0
+> XOR CX, CX
+> POP CX // Nos devuelbe el primer resultado que se realizo en CX
