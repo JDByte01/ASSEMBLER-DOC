@@ -75,3 +75,6 @@ Multiplica siembre BX * AX y lo almacena en dos registros (DX:AX)
 > //LImpiar registro CX = 0
 > XOR CX, CX
 > POP CX // Nos devuelbe el primer resultado que se realizo en CX
+
+### Instrucciones de salt
+- JMP: salto, solo puede saltar pocas lineas de código
